@@ -6,7 +6,7 @@ $main-sm-columns:       12;
 $sidebar-sm-columns:    4;
 
 // Colors
-$brand-primary:         #27ae60;
+//$brand-primary:         #27ae60;
 
 
 $bootstrap-sass-asset-helper: false !default;
@@ -26,8 +26,8 @@ $gray:                   lighten($gray-base, 33.5%) !default; // #555
 $gray-light:             lighten($gray-base, 46.7%) !default; // #777
 $gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
 
-$brand-primary:         darken(#428bca, 6.5%) !default; // #337ab7
-$brand-success:         #5cb85c !default;
+$brand-primary:         darken(#2bf2f1, 6.5%) !default; // #337ab7
+$brand-success:         #2bf2f1 !default;
 $brand-info:            #5bc0de !default;
 $brand-warning:         #f0ad4e !default;
 $brand-danger:          #d9534f !default;
