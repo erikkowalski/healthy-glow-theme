@@ -1,0 +1,72 @@
+.logobanner{
+	position: relative;
+	top: 0;
+	padding-bottom: 80px;
+	z-index: 4000;
+	width: 400px;
+	margin: 0 auto;
+	.navbar-brand{
+		padding-top: 15px;
+	}
+}
+
+.tagline {
+	position: absolute;
+	top: 73px;
+	left: 50%;
+	z-index: 4000;
+	width: 360px;
+	margin-left: -180px;
+}
+
+.navbar-fixed-top{
+	@media(min-width:$desktop-breakpoint){
+		top:26px;
+		position: relative;
+	}//.$desktop
+}
+
+
+.navbar-default {
+	background: white;
+	@media(min-width:$desktop-breakpoint){
+		//height: 300px;
+
+	}
+.navbar-brand {
+	@media(max-width:$desktop-breakpoint){
+	width: 200px;
+	padding-top: 0.7em;
+	}
+	@media(min-width:$desktop-breakpoint){
+		//width: 500px;
+}
+}
+	.navbar-nav {
+		max-width: 645px;
+		margin: 0 auto;
+		float: none;
+	}
+
+ .navbar-nav>.active>a,
+ .navbar-nav>.active>a:focus,
+	.navbar-nav>.active>a:hover {
+		background: white;
+		//color: $brand-success;
+	}
+	.navbar-nav>.active>a {
+		border-bottom: 1px solid $brand-success;
+	}
+	.navbar-nav>li>a{
+		color: black;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		padding-left:10px;
+		padding-right:10px;
+		@media(min-width:$desktop-breakpoint){
+			letter-spacing: 0.07em;
+			font-size: 1.3em;
+			//padding: 10px 15px;
+		}
+	}
+}
