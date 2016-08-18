@@ -1,0 +1,36 @@
+.contact {
+	.contact-page-wraper{
+		position: relative;
+	}
+
+
+	.page-header {
+		position: absolute;
+		top: 0;
+		@media(max-width:$screen-sm){
+			padding-top: 2.0em;
+			left: 50%;
+			margin-left: -100px;
+		}
+		@media(min-width:$screen-md){
+			left: 50%;
+			margin-left: -182.5px;
+		}
+		h1{
+			//color: green;
+			@media(max-width:$screen-sm){
+			width:200px;
+			}
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+			@media(min-width:$screen-md){
+				font-size: 5em;
+			}
+		}
+	}
+	.hero-image{
+		position: absolute;
+		top: 0;
+	}
+
+}//.contact
