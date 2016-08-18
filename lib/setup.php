@@ -88,6 +88,8 @@ function display_sidebar() {
     is_page_template('template-custom.php'),
     is_page('about'),
     is_page('contact'),
+    is_page('after-your-tan'),
+    is_page('before-your-tan'),
   ]);
 
   return apply_filters('sage/display_sidebar', $display);

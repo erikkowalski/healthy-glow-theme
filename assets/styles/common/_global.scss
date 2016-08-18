@@ -23,3 +23,16 @@ img.wp-post-image {
 	max-width: 100%;
 	height: auto;
 }
+
+.admin-bar .navbar {
+	margin-top: 30px;
+}
+
+.page-header {
+	color: $brand-primary;
+
+		h1 {
+			text-align: center;
+		}
+}
+

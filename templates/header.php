@@ -27,8 +27,6 @@
 			?>
 		</nav>
 	</div>
-	<div class="tagline">
-		<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/dist/images/tagline.png" alt="">
-	</div>
+
 </header>
 
