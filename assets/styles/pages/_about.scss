@@ -1,6 +1,42 @@
 .parent-pageid-9 {
-	.wrap {
+	.main {
+		position: relative;
+	}
+	.hero-image{
+
+	}
+
+	.page-header {
+		position: absolute;
+		top: 0;
+		padding-top: 1em;
+		@media(max-width:$screen-sm){
+			padding-top: 2.0em;
+			left: 50%;
+			margin-left: -100px;
+		}
+		@media(min-width:$screen-sm){
+			left: 50%;
+			margin-left: -184px;
+		}	@media(min-width:$screen-md){
+			left: 50%;
+			margin-left: -358px;
+		}
+		h1{
+			//color: green;
+			@media(max-width:$screen-sm){
+				width:200px;
+			}
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+			@media(min-width:$screen-md){
+				font-size: 5em;
+			}
+		}
+	}
+	.about-wrap{
 		max-width: 600px;
+		margin: 0 auto;
 
 		h4 {
 			font-size:1.4em;
@@ -10,6 +46,11 @@
 
 	ol {
 		font-size: 1.6em;
+		background: white;
+		@media(min-width:$screen-md){
+
+		}
+
 
 			li{
 				line-height: 1.6em;
