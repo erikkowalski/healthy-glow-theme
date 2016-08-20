@@ -1,39 +1,74 @@
 .parent-pageid-9 {
+	position: relative;
+	@media(min-width:$screen-md){
+		background-image:url(../images/lightpaperfibers.png);
+	}
 	.main {
-		position: relative;
+
 	}
 	.hero-image{
 
 	}
-
+	.before{
 	.page-header {
-		position: absolute;
-		top: 0;
-		padding-top: 1em;
+
+
 		@media(max-width:$screen-sm){
-			padding-top: 2.0em;
-			left: 50%;
-			margin-left: -100px;
+			margin-top: 0.5em;
 		}
-		@media(min-width:$screen-sm){
-			left: 50%;
-			margin-left: -184px;
-		}	@media(min-width:$screen-md){
+	@media(min-width:$screen-md){
+			position: absolute;
+			top: 39%;
 			left: 50%;
 			margin-left: -358px;
+			border-bottom: 2px solid #eee
+		}
+		@media(min-width:$screen-lg){
+			top: 45%;
 		}
 		h1{
-			//color: green;
-			@media(max-width:$screen-sm){
-				width:200px;
-			}
 			text-transform: uppercase;
 			letter-spacing: 0.1em;
 			@media(min-width:$screen-md){
 				font-size: 5em;
+				font-weight: 900;
+				padding-bottom: 0;
+				margin-bottom: 0;
+			}
+		}
+		}
+	}
+
+	.after{
+		.page-header{
+
+		@media(max-width:$screen-sm){
+			margin-top: 0.5em;
+		}
+	@media(min-width:$screen-md){
+			position: absolute;
+			top: 43%;
+			left: 50%;
+			margin-left: -337.5px;
+			border-bottom: 2px solid #eee
+		}
+			@media(min-width:$screen-lg){
+				top: 47%;
+			}
+		h1{
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+			@media(min-width:$screen-md){
+				font-size: 5em;
+				font-weight: 900;
+				padding-bottom: 0;
+				margin-bottom: 0;
 			}
 		}
 	}
+
+}
+
 	.about-wrap{
 		max-width: 600px;
 		margin: 0 auto;
@@ -42,6 +77,23 @@
 			font-size:1.4em;
 			font-weight: 600;
 		}
+
+
+	}
+
+	.about-info {
+
+		background: white;
+		padding: 1em;
+		@media(min-width:$screen-md){
+		position: absolute;
+		top: 70%;
+		max-width: 600px;
+		-webkit-box-shadow: 10px 10px 0px 0px rgba(237, 237, 237, 0.53);
+			-moz-box-shadow: 10px 10px 0px 0px rgba(237,237,237,0.53);
+			box-shadow: 10px 10px 0px 0px rgba(237,237,237,0.53);
+		}
+
 	}
 
 	ol {
@@ -59,4 +111,11 @@
 			}// li
 		}// ol
 
+	.content-info {
+		margin-top: 10em;
+
+		@media (min-width:$screen-md){
+		margin-top: 20em;
+		}
+	}
 }//.parent-pageid-9

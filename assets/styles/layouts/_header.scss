@@ -1,3 +1,12 @@
+.white-box{
+background: white;
+	@media(min-width:$screen-md){
+		height: 200px;
+		position: absolute;
+		width: 100%;
+		top: 0;
+	}
+}
 @media(min-width:$screen-md){
 .logobanner{
 	position: relative;
@@ -6,6 +15,7 @@
 	z-index: 4000;
 	width: 400px;
 	margin: 0 auto;
+	background: white;
 	.navbar-brand{
 		padding-top: 15px;
 	}

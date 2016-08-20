@@ -2,11 +2,14 @@
 // This file assumes that you have included the nav walker from https://github.com/twittem/wp-bootstrap-navwalker
 // somewhere in your theme.
 ?>
+<div class="white-box clearfix">
+</div>
 <header class="logobanner">
 
 	<a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>"><img class="visible-md visible-lg  img-responsive " src="<?php bloginfo('template_directory'); ?>/dist/images/healthy-glow-logo-lg.png" alt="Healthy Glow Logo"></a>
 
 </header>
+
 <header class="banner navbar navbar-default navbar-fixed-top" role="banner">
 	<div class="container-fluid">
 		<div class="navbar-header">
