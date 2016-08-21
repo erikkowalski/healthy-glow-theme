@@ -1,36 +1,151 @@
 .contact {
-	.contact-page-wraper{
-		position: relative;
-	}
-
-
-	.page-header {
-		position: absolute;
-		top: 0;
-		@media(max-width:$screen-sm){
-			padding-top: 2.0em;
-			left: 50%;
-			margin-left: -100px;
-		}
+position: relative;
 		@media(min-width:$screen-md){
-			left: 50%;
-			margin-left: -182.5px;
+			background-image:url(../images/lightpaperfibers.png);
 		}
-		h1{
-			//color: green;
-			@media(max-width:$screen-sm){
-			width:200px;
+			.page-header {
+				@media(max-width:$screen-sm){
+					margin-top: 0.5em;
+				}
+				@media(min-width:$screen-md){
+					position: absolute;
+					top: 24%;
+					left: 50%;
+					margin-left: -260.5px;
+					border-bottom: 2px solid #eee
+				}
+				@media(min-width:$screen-lg){
+					top: 28%;
+				}
+				h1{
+					text-transform: uppercase;
+					letter-spacing: 0.1em;
+					@media(min-width:$screen-md){
+						font-size: 7em;
+						font-weight: 900;
+						padding-bottom: 0;
+						margin-bottom: 0;
+					}
+				}
 			}
-			text-transform: uppercase;
-			letter-spacing: 0.1em;
+
+		.contact-wrap{
+			max-width: 600px;
+			margin: 0 auto;
 			@media(min-width:$screen-md){
-				font-size: 5em;
+				width: 600px;
+			}
+
+			h4 {
+				font-size:1.4em;
+				font-weight: 600;
 			}
 		}
+		.contact-info {
+
+			background: white;
+			padding: 1em;
+			@media(min-width:$screen-md){
+				position: absolute;
+				top: 55%;
+				width:600px;
+
+			}
+
+}
+.content-info {
+	margin-top: 10em;
+
+	@media (min-width:$screen-md){
+		margin-top: 45em;
 	}
-	.hero-image{
-		position: absolute;
-		top: 0;
+}
+.main {
+
+	padding-bottom: 15px;
+
+	form label {
+		letter-spacing: 0.10em;
+		font-size: 1.5em;
+		font-weight: 400;
+		margin-bottom: 0.4em;
 	}
+
+	form {
+		border-radius: 15x;
+	}
+}
+
+form label span {
+	font-weight: 300;
+}
+
+
+
+.contact-submit input {
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	width: 100%;
+}
+
+.contact-form input[type='text'],
+.contact-form input[type='email'] {
+	width: 100%;
+	border-radius: 6px;
+	margin-bottom: 2em;
+}
+
+textarea {
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.contact-form textarea {
+	width: 100%;
+}
+
+
+
+.contact-form .clear-form {
+	margin: 0;
+}
+
+.contact-submit input{
+	background-color: $brand-primary;
+	border-color: $brand-primary;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 90;
+	font-size: 2em;
+	margin-bottom: 2em;
+	letter-spacing: 0.20m;
+	padding: 10px 16px;
+	line-height: 1.33;
+	border-radius: 6px
+}
+
+
+.contact-submit input:hover{
+	background: $brand-primary;
+}
+
+
 
 }//.contact
+
+
+

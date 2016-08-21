@@ -90,6 +90,7 @@ function display_sidebar() {
     is_page('contact'),
     is_page('after-your-tan'),
     is_page('before-your-tan'),
+    is_page('book-online'),
   ]);
 
   return apply_filters('sage/display_sidebar', $display);

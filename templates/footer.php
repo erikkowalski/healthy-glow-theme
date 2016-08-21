@@ -7,5 +7,5 @@
 </footer>
 
 <div class="copyright">
-	<p>Copyright &copy; <?php date(Y) ?> Healthy Glow Organic Airbrush Tanning Salon</p>
+	<p>Copyright &copy; <?php echo date(Y) ?> Healthy Glow Organic Airbrush Tanning Salon</p>
 </div>
