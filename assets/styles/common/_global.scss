@@ -1,4 +1,8 @@
 body {
+	@media (min-width:$screen-sm)and (max-width:$desktop-breakpoint){
+		margin-top: 80px;
+	}
+
 	@media(min-width:$desktop-breakpoint){
 		.wrap {
 			margin-top: 80px;
@@ -35,4 +39,51 @@ img.wp-post-image {
 			text-align: center;
 		}
 }
+.content-info{
+.store-info {
+	text-align: center;
+	max-width: 650px;
+	margin: 0 auto;
+	h1{
+		font-size: 16px;
+		color: #333;
+	}
+	p{
+		font-size: 14px;
+		color: #333;
+	}
+}
+}
 
+.carousel.fade {
+	opacity: 1;
+
+	.item
+	{
+		-moz-transition: opacity ease-in-out .7s;
+		-o-transition: opacity ease-in-out .7s;
+		-webkit-transition: opacity ease-in-out .7s;
+		transition: opacity ease-in-out .7s;
+		left: 0 !important;
+		opacity: 0;
+		top:0;
+		position:absolute;
+		width: 100%;
+		display:block !important;
+		//z-index:1;
+		&:first-child{
+			top:auto;
+			position:relative;
+		}
+
+		&.active
+		{
+			opacity: 1;
+			-moz-transition: opacity ease-in-out .7s;
+			-o-transition: opacity ease-in-out .7s;
+			-webkit-transition: opacity ease-in-out .7s;
+			transition: opacity ease-in-out .7s;
+			//z-index:2;
+		}
+	}
+}
