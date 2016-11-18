@@ -92,6 +92,7 @@ background: white;
 	span {
 		font-weight: 700;
 	}
+	//max-width: 200px;
 }
 
 @media (max-width:$screen-sm){
@@ -142,10 +143,18 @@ background: white;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	margin-top: 15px;
+	padding-right: 7px;
+		padding-left: 10px
+
 }
 	@media(min-width:$screen-md){
 
-	margin-left: 10px;
+	//margin-left: 10px;
 	}
 }
 
+.navbar-default .navbar-nav>.menu-item-98>a:focus,
+.navbar-default .navbar-nav>.menu-item-98>a:hover {
+	background:white;
+	color:$brand-primary;
+}
